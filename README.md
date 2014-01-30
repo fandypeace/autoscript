@@ -80,5 +80,6 @@ Tested on
 ## Reference
 * http://blog.jualssh.com/
 * http://blog.jualssh.com/2014/01/centos6-automatic-script-installer/
+* http://blog.jualssh.com/2014/01/centos6-kvm-sh-automatic-script-installer/
 * http://blog.jualssh.com/2014/01/debian6-sh-automatic-script-installer/
 * http://blog.jualssh.com/2014/01/debian7-sh-automatic-script-installer/
