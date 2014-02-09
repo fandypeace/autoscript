@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# initialisasi var
+OS=`uname -m`;
+
 # go to root
 cd
 
