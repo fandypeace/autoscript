@@ -2,6 +2,8 @@
 
 # initialisasi var
 OS=`uname -m`;
+MYIP=`hostname --ip-address`;
+MYIP2="s/xxxxxxxxx/$MYIP/g";
 
 # go to root
 cd
@@ -83,8 +85,6 @@ sysctl -w net.ipv4.ip_forward=1
 sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
 wget -O /etc/iptables.up.rules "https://raw.github.com/arieonline/autoscript/master/conf/iptables.up.rules"
 sed -i '$ i\iptables-restore < /etc/iptables.up.rules' /etc/rc.local
-MYIP=`curl -s ifconfig.me`;
-MYIP2="s/xxxxxxxxx/$MYIP/g";
 sed -i $MYIP2 /etc/iptables.up.rules;
 iptables-restore < /etc/iptables.up.rules
 service openvpn restart
