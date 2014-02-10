@@ -47,8 +47,8 @@ Tested on
 
 ### What's server included
 * OpenSSH port 22, 143
-* OpenVPN port 1194 tcp
 * Dropbear port 109, 110, 443
+* OpenVPN port TCP 1194
 * Squid port 8080 (limit to IP VPS)
 * badvpn-udpgw port 7300
 
