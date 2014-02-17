@@ -43,9 +43,9 @@ Tested on
 * OpenVZ only
 
 
-## Description
+## Descriptions
 
-### What's server included
+### What's services included
 * OpenSSH port 22, 143
 * Dropbear port 109, 110, 443
 * OpenVPN port TCP 1194
@@ -68,7 +68,7 @@ Tested on
 * mtr
 * nethogs  
 
-### What's script included
+### What's scripts included
 * screenfetch (https://github.com/KittyKatt/screenFetch)
 * ps_mem.py (https://github.com/pixelb/ps_mem/)
 * speedtest-cli (https://github.com/sivel/speedtest-cli)
@@ -77,7 +77,7 @@ Tested on
 * user-limit.sh
 * user-expire.sh
 
-## Reference
+## References
 * http://blog.jualssh.com/
 * http://blog.jualssh.com/2014/01/centos6-automatic-script-installer/
 * http://blog.jualssh.com/2014/01/centos6-kvm-sh-automatic-script-installer/
